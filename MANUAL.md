@@ -34,12 +34,12 @@
 
 <h2>Step3:Modem</h2>
 <p>Installing a modem hardware on a dedicated server is mandatory to allow sending/receiving our sms.</p>
-<p>Assuming it is installed in our server with all configuration done as per the vendor of your product: port number, speed...</p>
+<p>Assuming it is installed in your server with all configuration done as per the vendor of your product: port number, speed...</p>
 <p>The next step is to make a test of your modem. </p>
 <p>Please try to send an sms manually using AT command from the terminal and make sure the sms is sent properly.</p>
 <p>Please download and install an HyperTerminal for testing your modem.</p>
 <p>You should receive OK signal before you move to the next step.</p>
-<p>For our case, we have used a Wireless Sierra Modem, but you can also use those old mobile cell phone connected on usb port, Nokia...</p>
+<p>For our case, we have used a Wireless Sierra Modem, but you can also use those old mobile cell phone connected to usb port. Example: Nokia N95, :) ...</p>
 
 <h2>Step4: Scheduled Task</h2>
 <p>Please feel free to Run a scheduled task as per your need.</p>
@@ -64,8 +64,8 @@
 <p>To run this application, you just need to schedule and run the 2 vbs applications, they will  invoke 2 main method in our .netframework application.</p>
 <p>Please consider about 1 minute time interval between them.</p>
 <h2>Monitoring</h2>
-<p>Please Check your PIPointSnapshot table to see the latest value in PI System,</p>
-<p>Please Check your PISmsQueueList table to status of your notification,</p>
+<p>Please Check your PIPointSnapshot table to see the latest value from your PI System.</p>
+<p>Please Check your PISmsQueueList table to status of your notification.</p>
 <p>That's it! good luck!</p>
 
 
