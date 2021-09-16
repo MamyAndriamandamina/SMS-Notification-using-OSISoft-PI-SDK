@@ -19,7 +19,7 @@
 <p>3rd: Run PIPointList.sql to create the table of PI point list. Please specify the list of pi point names, these points should be already available in the PI System before you add it, please indicate the Operator such as > to say more than, = to say equal, and finally specify the trigger condition. example1: SINUSOID > 0.5 example2: 32HVAC01 = on</p>
 <p>4th: Run PIPointSnapshot.sql to create the table of pi point snapshot list. 
 <p>This table will enable you to see the snapshot value of your pi point. This table is fed from your application not from your action. just leave it once created</p>
-<p> In normal operation, data found in this table should be exactly equal to the snapashot value of your pi point found in your PI System, it is fed from your sdk application.</p>
+<p> In normal operation, data found in this table should be exactly equal to the snapshot value of your pi point found in your PI System, it is fed from your sdk application.</p>
 <p>5th: Run PISmsQueueList.sql to create the table of sms status. This table will enable you to see whether an sms is sent or ready to be sent. 
 <p>This table is partially fed from your application, once created, you have to initialize the SMS Status column by updating it using the last step</p>
 <p>It is a mapping of data where you will see the points, the values, the trigger conditions, the users, their respective cell phone numbers and finally the status of their sms: ready/sent.</p>
